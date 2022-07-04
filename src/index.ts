@@ -9,7 +9,7 @@ const wranglerPlugin = ({
   path = 'server/index.ts',
   port = '8080',
   local = true,
-}) => {
+} = {}) => {
   return {
     name: 'wrangler',
     async buildStart() {
